@@ -1,0 +1,90 @@
+.footer {
+  background-color: $color-grey-light;
+  color: $color-grey-dark;
+  padding: 20px 0 0 0;
+
+  &-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+  }
+
+  .co-info {
+    width: 40%;
+  }
+
+  .site-map {
+    &__items {
+      padding: 0;
+      margin: 0;
+    }
+
+    &__item {
+      margin-bottom: 14px;
+    }
+
+    &__link {
+      color: $color-grey-dark;
+    }
+
+    .heading--secondary {
+        font-weight: 500;
+    }
+  }
+
+  .co-contacts {
+    .contact-us__item {
+      margin-bottom: 14px;
+    }
+
+    .contact-us__item-icon {
+      font-size: 1rem;
+      color: $main-color !important;
+    }
+
+    .heading--secondary {
+        font-weight: 500;
+    }
+  }
+
+  .copy-rights {
+    background-color: $second-color-dark;
+    color: $color-white;
+
+    &-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 60px;
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .footer {
+    &-container {
+      flex-direction: column;
+
+      & > div {
+        width: 100% !important;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    .copy-rights {
+        &-container {
+            flex-direction: column;
+            justify-content: center!important;
+        }
+
+        &-slang {
+            margin-bottom: 10px;
+        }
+    }
+}

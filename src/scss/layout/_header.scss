@@ -1,0 +1,171 @@
+.header {
+  height: 100vh;
+  background-image: url("../images/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  &__top {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  &__contacts-links {
+    display: flex;
+
+    .link {
+      font-size: 0.875rem;
+
+      &-icon {
+        margin-right: 10px;
+      }
+
+      &:not(:last-child) {
+        margin-right: 50px;
+      }
+    }
+  }
+
+  &__social {
+    display: flex;
+    align-items: center;
+  }
+
+  &__social-item {
+    &:not(:last-child) {
+      margin-right: 25px;
+    }
+  }
+
+  .nav {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-top: 1px solid $color-grey;
+    height: 85px;
+    padding-top: 10px;
+
+    &__container {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &__items {
+      display: flex;
+      transition: all 0.5s ease-in-out;
+
+      &.mobile-view {
+        display: flex;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: $second-color;
+        flex-direction: column;
+        padding-top: 60px;
+        z-index: 9999;
+
+        .nav__item {
+          padding: 20px;
+        }
+
+        .nav__close {
+          display: inline;
+          z-index: 9999999;
+          top: 20px;
+          right: 20px;
+          position: absolute;
+        }
+      }
+
+      .nav__close {
+        display: none;
+      }
+    }
+
+    &__item {
+      &:not(:last-child) {
+        margin-right: 40px;
+      }
+    }
+
+    &__link {
+      font-weight: bold;
+      text-transform: uppercase;
+
+      &--active {
+        color: $main-color;
+      }
+
+      &:hover {
+        color: $main-color;
+      }
+    }
+
+    &__toggle {
+      display: none;
+    }
+  }
+
+  .shipment {
+    display: flex;
+    justify-content: space-between;
+    height: calc(100vh - 156px); // 156 => height of top_header and nav
+    align-items: center;
+
+    &__info {
+      width: 50%;
+    }
+
+    &__tracking__input {
+      margin: 13px 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .header {
+    height: auto;
+
+    .nav {
+      &__items {
+        display: none;
+      }
+
+      &__toggle {
+        display: inline;
+      }
+    }
+
+    .shipment {
+      height: auto;
+      flex-direction: column-reverse;
+      padding: 40px 0;
+      box-sizing: border-box;
+
+      &__info,
+      &__tracking {
+        width: 100%;
+      }
+
+      &__info {
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .header {
+    &__contacts-links {
+      flex-direction: column;
+      .link {
+        margin-bottom: 5px;
+      }
+    }
+  }
+}

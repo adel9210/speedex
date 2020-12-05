@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56.337" height="56.337" viewBox="0 0 56.337 56.337">
+  <g id="Group_14" data-name="Group 14" transform="translate(-957.529 -950.529)">
+    <g id="play-button" transform="translate(957.529 950.529)">
+      <g id="Group_11" data-name="Group 11">
+        <g id="Group_10" data-name="Group 10">
+          <path id="Path_12" data-name="Path 12" d="M28.169,0A28.169,28.169,0,1,0,56.337,28.169,28.169,28.169,0,0,0,28.169,0Zm0,52.313A24.145,24.145,0,1,1,52.313,28.169,24.145,24.145,0,0,1,28.169,52.313Z" fill="#ee1f27"/>
+        </g>
+      </g>
+      <g id="Group_13" data-name="Group 13" transform="translate(20.12 18.107)">
+        <g id="Group_12" data-name="Group 12">
+          <path id="Path_13" data-name="Path 13" d="M190.577,162.752a2.012,2.012,0,0,0-.9-.9l-16.1-8.048a2.012,2.012,0,0,0-2.911,1.8v16.1a2.012,2.012,0,0,0,2.911,1.8l16.1-8.048A2.012,2.012,0,0,0,190.577,162.752Zm-15.887,5.69v-9.585l9.585,4.793Z" transform="translate(-170.666 -153.587)" fill="#ee1f27"/>
+        </g>
+      </g>
+    </g>
+    <path id="Polygon_1" data-name="Polygon 1" d="M6.5,0,13,12H0Z" transform="translate(993.276 972.452) rotate(93)" fill="#ee1f27"/>
+  </g>
+</svg>

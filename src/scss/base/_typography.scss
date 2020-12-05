@@ -1,0 +1,45 @@
+.heading--primary {
+  font-size: 2.8125rem;
+  font-weight: bold;
+}
+
+.heading--active--primary {
+  color: $main-color;
+}
+
+.heading--secondary {
+  font-size: 1.125rem;
+  line-height: 33px;
+  margin: 22px 0;
+}
+
+.heading--tertiary {
+  font-size: 2rem;
+  color: $color-grey-dark;
+  font-weight: 600;
+}
+
+.heading--tertiary--active {
+  color: $second-color;
+}
+
+@media only screen and (max-width: 991px) {
+  .heading--primary {
+    font-size: 2.2rem;
+  }
+
+  .heading--secondary{
+      margin: 5px 0;
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .heading--tertiary, .heading--secondary {
+        line-height: 23px;
+    }
+
+    .heading--tertiary {
+        font-size: 1.4rem;
+    }
+}

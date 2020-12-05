@@ -1,0 +1,25 @@
+.container {
+    width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media only screen and (max-width: 1600px){
+    .container {
+        width: 1140px;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .container {
+        width: 900px;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .container {
+        width: 90%;
+    }
+}
