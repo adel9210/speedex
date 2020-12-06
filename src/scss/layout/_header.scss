@@ -35,8 +35,13 @@
   }
 
   &__social-item {
+    transition: all .3s ease-in-out;
     &:not(:last-child) {
       margin-right: 25px;
+    }
+
+    &:hover {
+      transform: translateY(-3px);
     }
   }
 
@@ -96,6 +101,7 @@
     &__link {
       font-weight: bold;
       text-transform: uppercase;
+      transition: all .3s ease-in-out;
 
       &--active {
         color: $main-color;
