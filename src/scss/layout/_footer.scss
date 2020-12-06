@@ -22,6 +22,18 @@
 
     &__item {
       margin-bottom: 14px;
+
+      &::before {
+        content: "";
+        width: 7px;
+        height: 7px;
+        background-color: red;
+        display: inline-block;
+        border-radius: 50%;
+        left: -7px;
+        position: relative;
+        top: -1px;
+      }
     }
 
     &__link {
@@ -29,7 +41,7 @@
     }
 
     .heading--secondary {
-        font-weight: 500;
+      font-weight: 500;
     }
   }
 
@@ -44,7 +56,7 @@
     }
 
     .heading--secondary {
-        font-weight: 500;
+      font-weight: 500;
     }
   }
 
@@ -74,17 +86,15 @@
   }
 }
 
-
 @media only screen and (max-width: 500px) {
-
-    .copy-rights {
-        &-container {
-            flex-direction: column;
-            justify-content: center!important;
-        }
-
-        &-slang {
-            margin-bottom: 10px;
-        }
+  .copy-rights {
+    &-container {
+      flex-direction: column;
+      justify-content: center !important;
     }
+
+    &-slang {
+      margin-bottom: 10px;
+    }
+  }
 }

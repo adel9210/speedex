@@ -23,6 +23,21 @@
   color: $second-color;
 }
 
+.heading--border-bottom::after {
+  content: "";
+  width: 50px;
+  height: 8px;
+  background-color: $main-color;
+  display: block;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.heading--border-left::after {
+  @extend .heading--border-bottom;
+  margin: 10px 0;
+}
+
 @media only screen and (max-width: 991px) {
   .heading--primary {
     font-size: 2.2rem;
