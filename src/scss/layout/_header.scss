@@ -69,10 +69,10 @@
         bottom: 0;
         left: 0;
         right: 0;
-        background: $second-color;
+        background: #0d193c;
         flex-direction: column;
         padding-top: 60px;
-        z-index: 9999;
+        z-index: 9999999;
 
         .nav__item {
           padding: 20px;
@@ -84,6 +84,7 @@
           top: 20px;
           right: 20px;
           position: absolute;
+          font-size: 1.8rem;
         }
       }
 
@@ -143,6 +144,7 @@
       }
 
       &__toggle {
+        font-size: 2rem;
         display: inline;
       }
     }
