@@ -1,0 +1,17 @@
+.find-us {
+    &-container {
+        width: 100%;
+    }
+
+    &__heading {
+        color: $color-grey-dark;
+    }
+
+    &__location {
+        text-align: center;
+    }
+
+    &__location-img {
+        margin: 60px 0;
+    }
+}

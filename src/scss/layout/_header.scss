@@ -73,6 +73,7 @@
         flex-direction: column;
         padding-top: 60px;
         z-index: 9999999;
+        transform: translateY(0%);
 
         .nav__item {
           padding: 20px;
@@ -141,6 +142,7 @@
     .nav {
       &__items {
         display: none;
+        transform: translateY(-100%);
       }
 
       &__toggle {

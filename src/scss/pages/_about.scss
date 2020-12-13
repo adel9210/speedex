@@ -1,0 +1,20 @@
+.header--about-us {
+  height: auto;
+}
+
+.about-us-page {
+  .about__heading {
+    text-align: left;
+
+    &::after {
+      margin: 0;
+      margin-right: auto;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+
+  &__button {
+    margin: 40px 0;
+  }
+}

@@ -7,14 +7,13 @@
     <meta name="description" content="Speedex || Speed">
     <title>SpeedEX | Home</title>
     <link rel="icon" type="image/png" href="favicon.ico">
+    <link rel="stylesheet" href="dist/css/animate.min.css" />
     <link rel="stylesheet" href="dist/css/main.css">
     <link rel="stylesheet" href="dist/css/style-icon.css">
 </head>
 
 <body>
 
-
-    <!-- HEADER START -->
     <header class="header">
         <div class="header__top">
             <div class="container">
@@ -59,10 +58,10 @@
                     <a href="#"><img src="dist/images/logo.png" alt="logo" class="logo"></a>
                     <ul class="nav__items">
                         <li class="nav__item">
-                            <a href="#" class="nav__link nav__link--active">Home</a>
+                            <a href="index.html" class="nav__link nav__link--active">Home</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav__link">About Us</a>
+                            <a href="pages/about-us.html" class="nav__link">About Us</a>
                         </li>
                         <li class="nav__item">
                             <a href="#" class="nav__link">Services</a>
@@ -74,7 +73,7 @@
                             <a href="#" class="nav__link">Price</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav__link">Contact Us</a>
+                            <a href="./pages/contact-us.html" class="nav__link">Contact Us</a>
                         </li>
 
                         <a href="#" class="nav__close">
@@ -92,7 +91,7 @@
 
         <div class="container">
             <div class="shipment">
-                <div class="shipment__info">
+                <div class="shipment__info wow animate__slideInLeft">
                     <h1 class="heading--primary">Safety <span class="heading--active--primary">shipping</span></h1>
                     <p class="heading--secondary">
                         Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic
@@ -103,7 +102,7 @@
                     <button class="button button--primary">See more <i class="icon icon-right-arrow"></i></button>
                 </div>
 
-                <div class="shipment__tracking">
+                <div class="shipment__tracking wow animate__slideInRight">
                     <h2 class="heading--primary">Track your shipment </h2>
                     <input type="text" placeholder="Tracking ID" class="input shipment__tracking__input">
                     <button class="button button--primary">Track</button>
@@ -115,7 +114,7 @@
     <!-- HEADER END -->
 
     <!-- ABOUT SECTION START -->
-    <section class="about">
+    <section class="about wow animate__zoomIn">
         <h2 class="heading--primary about__heading heading--border-bottom">About us</h2>
         <div class="container">
             <div class="about-container">
@@ -148,7 +147,7 @@
     <!-- ABOUT SECTION END -->
 
     <!-- OUR VISION START -->
-    <section class="our-vision">
+    <section class="our-vision wow">
         <h2 class="heading--primary"><span class="our-vision__heading">What can we</span> DO ?</h2>
         <div class="container">
             <div class="our-vision-container">
@@ -158,19 +157,19 @@
                 </p>
 
                 <div class="our-vision__items">
-                    <div class="our-vision__item">
+                    <div class="our-vision__item wow animate__slideInLeft">
                         <h3 class="our-vision__item-title heading--border-bottom">Door to door</h3>
                         <p class="our-vision__item-description heading--secondary">The passage is attributed to an
                             unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De
                             Finibus Bonorum et Malorum for use in a type specimen book.</p>
                     </div>
-                    <div class="our-vision__item">
+                    <div class="our-vision__item wow animate__slideInDown">
                         <h3 class="our-vision__item-title heading--border-bottom">Delivery on time</h3>
                         <p class="our-vision__item-description heading--secondary">The passage is attributed to an
                             unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De
                             Finibus Bonorum et Malorum for use in a type specimen book.</p>
                     </div>
-                    <div class="our-vision__item">
+                    <div class="our-vision__item wow animate__slideInRight">
                         <h3 class="our-vision__item-title heading--border-bottom">Safety</h3>
                         <p class="our-vision__item-description heading--secondary">The passage is attributed to an
                             unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De
@@ -186,7 +185,7 @@
     <section class="contact-us">
         <div class="container">
             <div class="contact-us-container">
-                <div class="contact-us__info">
+                <div class="contact-us__info wow animate__fadeInLeft">
                     <h2 class="heading--primary contact-us__heading heading--border-left">Contact us</h2>
                     <div class="contact-us__list">
                         <div class="contact-us__item">
@@ -220,7 +219,7 @@
                     </div>
                 </div>
 
-                <div class="contact-us__form">
+                <div class="contact-us__form wow animate__fadeInRight">
                     <h2 class="heading--primary contact-us__heading heading--border-left">Keep in touch</h2>
                     <form action="#">
                         <div class="form-group">
@@ -332,7 +331,12 @@
     </footer>
     <!-- FOOTER END -->
 
+    <script src="dist/js/wow.min.js"></script>
     <script src="dist/js/app.js"></script>
+
+    <!-- <script>
+        new WOW().init();
+    </script> -->
 </body>
 
 </html>
