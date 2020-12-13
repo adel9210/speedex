@@ -38,6 +38,10 @@
 
     &__link {
       color: $color-grey-dark;
+
+      &:hover {
+        color: $second-color;
+      }
     }
 
     .heading--secondary {
