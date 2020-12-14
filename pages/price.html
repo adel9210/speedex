@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Speedex || Speed">
-    <title>SpeedEX | Contact-us</title>
+    <title>SpeedEX | Prices</title>
     <link rel="icon" type="image/png" href="favicon.ico">
     <link rel="stylesheet" href="../dist/css/animate.min.css" />
     <link rel="stylesheet" href="../dist/css/main.css">
@@ -64,13 +64,13 @@
                             <a href="./services.html" class="nav__link">Services</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav__link">Offers</a>
+                            <a href="./offers.html" class="nav__link">Offers</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav__link">Price</a>
+                            <a href="./price.html" class="nav__link">Price</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav__link  nav__link--active">Contact Us</a>
+                            <a href="./contact-us.html" class="nav__link  nav__link--active">Contact Us</a>
                         </li>
 
                         <a href="#" class="nav__close">
@@ -88,84 +88,53 @@
     </header>
     <!-- HEADER END -->
 
-    <!-- CONTACT US SECTION START -->
-    <section class="contact-us">
+    <!-- PRICES SECTION START -->
+    <section class="price wow animate__zoomIn" data-wow-delay=".5s">
         <div class="container">
-            <div class="contact-us-container">
-                <div class="contact-us__info wow animate__fadeInLeft">
-                    <h2 class="heading--primary contact-us__heading heading--border-left">Contact us</h2>
-                    <div class="contact-us__list">
-                        <div class="contact-us__item">
-                            <i class="icon icon-location  contact-us__item-icon"></i>
-                            <h2 class="contact-us__item-info">
-                                <span class="label">Address</span>
-                                <span class="title">188 name st, el mohandseen, Egypt</span>
-                            </h2>
-                        </div>
-                        <div class="contact-us__item">
-                            <i class="icon icon-envelope  contact-us__item-icon"></i>
-                            <h2 class="contact-us__item-info">
-                                <span class="label">Email</span>
-                                <span class="title">mail@mai.com - mail@yahoo.com</span>
-                            </h2>
-                        </div>
-                        <div class="contact-us__item">
-                            <i class="icon icon-phone  contact-us__item-icon"></i>
-                            <h2 class="contact-us__item-info">
-                                <span class="label">Phone</span>
-                                <span class="title">+201988209222</span>
-                            </h2>
-                        </div>
-                        <div class="contact-us__item">
-                            <i class="icon icon-time  contact-us__item-icon"></i>
-                            <h2 class="contact-us__item-info">
-                                <span class="label">Work time</span>
-                                <span class="title">Sun-Fri / 24h</span>
-                            </h2>
-                        </div>
+            <div class="price-container">
+                <h2 class="heading--primary heading--border-bottom heading--border-left">Prices</h2>
+                <P class="price__text">The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</P>
+                <form action="#" class="price__form">
+                    <div class="form-group">
+                        <label class="form-label" for="bname">Business name</label>
+                        <input type="text" id="bname" class="input">
                     </div>
-                </div>
-
-                <div class="contact-us__form wow animate__fadeInRight">
-                    <h2 class="heading--primary contact-us__heading heading--border-left">Keep in touch</h2>
-                    <form action="#">
-                        <div class="form-group">
-                            <label class="form-label" for="name">Name</label>
-                            <input type="text" id="name" class="input">
-                        </div>
-                        <div class="form-group">
-                            <label class="form-label" for="number">Number</label>
-                            <input type="text" id="number" class="input">
-                        </div>
-                        <div class="form-group">
-                            <label class="form-label" for="message">Your Message</label>
-                            <textarea rows="6" id="message" class="textarea"></textarea>
-                        </div>
-
-                        <button class="button button--primary"> Send </button>
-                    </form>
-                </div>
+                    <div class="form-group">
+                        <label class="form-label" for="category">Category</label>
+                        <input type="text" id="category" class="input">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="phone-number">Phone number</label>
+                        <input type="text" id="phone-number" class="input">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="facebook-page">Facebook page</label>
+                        <input type="text" id="facebook-page" class="input">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="city">City</label>
+                        <input type="text" id="city" class="input">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="Area">Area</label>
+                        <input type="text" id="Area" class="input">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="shipment">Shipment / month</label>
+                        <select class="select" name="shipment" id="shipment__select">
+                            <option value="200">200</option>
+                            <option value="300">300</option>
+                            <option value="400">400</option>
+                        </select>
+                    </div>           
+                    <div class="price__form-send-button">
+                        <button type="submit" class="button button--primary">Send</button>
+                    </div>
+                </form>
             </div>
         </div>
     </section>
-    <!-- CONTACT US SECTION END -->
-
-    <!-- FIND US SECTION START -->
-
-    <section class="find-us">
-        <div class="container">
-            <div class="find-us-container wow animate__fadeInUp">
-                <h2 class="heading--primary heading--border-left find-us__heading">Find us</h2>
-                <div class="find-us__location">
-                    <!-- <img src="../dist/images/location.png" alt="Location" class="find-us__location-img"> -->
-                    <div class="find-us__location-img" style="width: 100%"><iframe  width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.maps.ie/route-planner.htm">Road Trip Planner</a></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- FIND US SECTION END -->
+    <!-- PRICES SECTION END -->
 
     <!-- FOOTER START -->
     <footer class="footer">

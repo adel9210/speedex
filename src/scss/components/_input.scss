@@ -18,6 +18,18 @@
     resize: none;
 }
 
+.select {
+    width: 100%;
+    padding: 0 20px;
+    color: $color-grey;
+    border: 0;
+    background-color: $color-grey-light;
+    box-sizing: border-box;
+    resize: none;
+    height: 50px;
+    cursor: pointer;
+}
+
 .form-group {
     width: 100%;
     margin-bottom: 13px;
