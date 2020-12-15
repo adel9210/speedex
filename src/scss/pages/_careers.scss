@@ -73,23 +73,46 @@
   &__card-button {
     margin-top: 16px;
   }
+
+  // Career Details
+  .career-details {
+    color: $color-grey-dark;
+
+    &__about-job {
+      margin: 40px 0;
+    }
+
+    &__about-job--heading {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+
+    &__about-job--list {
+      list-style: disc;
+      margin-left: 40px;
+    }
+    &__about-job--item {
+      font-size: .9rem;
+      margin-bottom: 10px;
+    }
+  }
 }
 
-
 @media screen and (max-width: 1200px) {
-    .careers {
-        &__cards {
-            justify-content: space-between;
-        }
+  .careers {
+    &__cards {
+      justify-content: space-between;
     }
+  }
 }
 
 @media screen and (max-width: 800px) {
-    .careers {
-        &__card {
-            width: 95%;
-            margin-left: auto;
-            margin-right: auto;
-        }
+  .careers {
+    &__card {
+      width: 95%;
+      margin-left: auto;
+      margin-right: auto;
     }
+  }
 }
